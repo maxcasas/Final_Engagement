@@ -13,8 +13,7 @@ We are able to gain access to michaels account by using a simple guess **passwor
 Now that we are in michaels account we can use commands to find the flag names. To find the first flag we used the `find` command.
 - `find . -type f -iname *flag* 2>/dev/null`
 ![flag2](../Images/flag-2.png)
-This command located flag2.txt as well as other places that other flags might be in. A hint was presented to me saying that the first flag may be imbedded in a file. This prompted me to do a recurssive search in all html files. We need to change directories to `/var/www`
-- `grep -RE flag html`
+This command located flag2.txt as well as other places that other flags might be in. A hint was presented to me saying that the first flag may be imbedded in a file. This prompted me to do a recurssive search in all html files. We need to change directories to `/var/www` then `grep -RE flag html`
 ![flag1](../Images/flag-1.png)
 - We found flag one embeeded in the service.html file. For fun I located the flag in the source code of that html page.
 ![flag1-source](../Images/flag1-source.png)
