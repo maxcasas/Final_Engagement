@@ -1,5 +1,9 @@
 # Final_Engagement
 This project demonstartes my knowledge of offensive and defensive security along with my ability to analyze network traffic using wireshark.
+## Network Topology
+
+![network](Images/final-topology.png)
+
 ## Offensive Engagement
 In this offenesive engagement I will be in a gray box environment exploiting a vulnerable network. The VM's on this netowrk include a vulnerable wordpress VM, and the vulnerable database for the wordpress site.
 ## Defensive Engagement
