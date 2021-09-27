@@ -23,7 +23,7 @@ Now that we are in michaels account we can use commands to find the flag names. 
 
 ![flag1](../Images/flag-1.png)
 
-- We found flag one embeeded in the service.html file. For fun I located the flag in the source code of that html page.
+- We found flag one embeeded in the service.html file. The flag can also be located  in the source code of that html page. *http://192.168.1.110/service.html*
 ![flag1-source](../Images/flag1-source.png)
 ## Finding MySQL Database password
 After finding the necessary flags in michaels account we direct our attention to finding information to login into the MySQL database. We know this information has to be in a configuration file. `nano /var/www/html/wordpress/wp-config.php`
